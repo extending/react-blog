@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-const title = <>Hello, world</>
 
 function Welcome(props) {
   return <p>this is a {props.data.name} paragraph {props.data.year}</p>
@@ -17,7 +15,7 @@ class Obj {
   }
 }
 
-console.log(new Obj())
+console.log(new Obj(2,3))
 
 class Test extends Component {
   constructor(props) {
