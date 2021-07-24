@@ -1,4 +1,4 @@
-import React, { memo, useState } from 'react';
+import React, { memo, useEffect, useState } from 'react';
 // import React, {memo, useCallback, useState} from "react";
 import CHeader from './components/CHeader/'
 import CSideBar from './components/CSideBar/'
@@ -8,7 +8,6 @@ import './css/common.css';
 import '@csstools/normalize.css';
 
 const Wrap = memo(() => {
-    // const [name, setName] = useState('234')
     return (
         <>
             <CHeader />

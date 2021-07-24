@@ -1,6 +1,5 @@
 html, body, #root {
     min-height: 100vh;
-    color: #ffffff;
     font-size: 18px;
 }
 
@@ -35,7 +34,7 @@ html, body, #root {
     flex-direction: column;
     width: 280px;
     background: blue;
-    padding: 30px 0 30px 25px;
+    padding: 0 0 30px 0;
 }
 
 .side-bar .menu {
@@ -45,15 +44,28 @@ html, body, #root {
 }
 
 .side-bar .menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 58px;
     border-bottom: 1px solid yellowgreen;
+}
+
+.menu-item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 57px;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .side-bar .btm {
     padding-top: 30px;
 }
 
-.cont {
+.cont, .child {
     flex:1;
     background: cyan;
 

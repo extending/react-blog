@@ -5,13 +5,27 @@ const CSideBar = () => {
     return (
         <div className="side-bar">
             <div className="menu">
-                <div className="menu-item">menu-1</div>
-                <div className="menu-item">menu-2</div>
-                <div className="menu-item">menu-3</div>
-                <div className="menu-item">menu-4</div>
-                <div className="menu-item">menu-5</div>
-                <div className="menu-item">menu-6</div>
-                <div className="menu-item">menu-7</div>
+                <div className="menu-item">
+                    <a href="/home">home</a>
+                </div>
+                <div className="menu-item">
+                    <a href="/menu">menu</a>
+                </div>
+                <div className="menu-item">
+                    <a href="/home">menu-3</a>
+                </div>
+                <div className="menu-item">
+                    <a href="/home">menu-4</a>
+                </div>
+                <div className="menu-item">
+                    <a href="/home">menu-5</a>
+                </div>
+                <div className="menu-item">
+                    <a href="/home">menu-6</a>
+                </div>
+                <div className="menu-item">
+                    <a href="/home">menu-7</a>
+                </div>
             </div>
             <div className="btm">CONTACT ＵＳ</div>
         </div>
