@@ -12,19 +12,19 @@ const CSideBar = () => {
                     <a href="/menu">menu</a>
                 </div>
                 <div className="menu-item">
-                    <a href="/home">menu-3</a>
+                    <a href="/menu-3">menu-3</a>
                 </div>
                 <div className="menu-item">
-                    <a href="/home">menu-4</a>
+                    <a href="/menu-4">menu-4</a>
                 </div>
                 <div className="menu-item">
-                    <a href="/home">menu-5</a>
+                    <a href="/menu-5">menu-5</a>
                 </div>
                 <div className="menu-item">
-                    <a href="/home">menu-6</a>
+                    <a href="/menu-6">menu-6</a>
                 </div>
                 <div className="menu-item">
-                    <a href="/home">menu-7</a>
+                    <a href="/menu-7">menu-7</a>
                 </div>
             </div>
             <div className="btm">CONTACT ＵＳ</div>

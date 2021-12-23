@@ -26,7 +26,7 @@ html, body, #root {
 .main {
     display: flex;
     flex: 1;
-    padding-top: 60px;
+    /* padding-top: 60px; */
 }
 
 .side-bar {
@@ -67,6 +67,5 @@ html, body, #root {
 
 .cont, .child {
     flex:1;
-    background: cyan;
-
+    background: rgb(184, 16, 11);
 }

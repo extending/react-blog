@@ -10,9 +10,9 @@ import '@csstools/normalize.css';
 const Wrap = memo(() => {
     return (
         <>
-            <CHeader />
+            {/* <CHeader /> */}
             <div className="main">
-                <CSideBar />
+                {/* <CSideBar /> */}
                 <CCont />
             </div>
         </>

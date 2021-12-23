@@ -4,9 +4,9 @@ import React, { lazy, Suspense } from 'react';
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import '../../css/common.css'
 
-// import Home from '../../view/Home/'
 const Home = lazy(() => import('../../view/Home/'))
 const Menu = lazy(() => import('../../view/Menu/'))
+const NoMatch = lazy(() => import('../../view/NoMatch/'))
 
 const CCont = () => {
     return (
@@ -14,14 +14,14 @@ const CCont = () => {
             <BrowserRouter>
                 <Suspense fallback={''}>
                     <Switch>
-                        <Route path="/home" component={Home}/>
+                        <Route path="/" component={Home}/>
                         <Route path="/menu" component={Menu}/>
-                        {/* <Route path="/" component={App}> */}
-                            {/* <Route path="users" component={Users}>
+                        {/* <Route path="/" component={App}>
+                            <Route path="users" component={Users}>
                                 <Route path="/user/:userId" component={User}/>
                             </Route>
-                            <Route path="*" component={NoMatch}/> */}
-                        {/* </Route> */}
+                        </Route> */}
+                        <Route path="*" component={NoMatch}/>
                     </Switch>
                 </Suspense>
             </BrowserRouter>
