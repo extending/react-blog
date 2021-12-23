@@ -67,5 +67,5 @@ html, body, #root {
 
 .cont, .child {
     flex:1;
-    background: rgb(184, 16, 11);
+    /* background: rgb(184, 16, 11); */
 }

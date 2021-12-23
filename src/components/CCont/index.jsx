@@ -14,8 +14,8 @@ const CCont = () => {
             <BrowserRouter>
                 <Suspense fallback={''}>
                     <Switch>
-                        <Route path="/" component={Home}/>
-                        <Route path="/menu" component={Menu}/>
+                        <Route path="/" exact component={Home}/>
+                        <Route path="/menu" exact component={Menu}/>
                         {/* <Route path="/" component={App}>
                             <Route path="users" component={Users}>
                                 <Route path="/user/:userId" component={User}/>

@@ -1,7 +1,7 @@
-import React, { memo, useEffect, useState } from 'react';
+import React, { memo } from 'react';
 // import React, {memo, useCallback, useState} from "react";
-import CHeader from './components/CHeader/'
-import CSideBar from './components/CSideBar/'
+// import CHeader from './components/CHeader/'
+// import CSideBar from './components/CSideBar/'
 import CCont from './components/CCont/'
 import './App.css';
 import './css/common.css';
