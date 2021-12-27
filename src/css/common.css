@@ -67,5 +67,10 @@ html, body, #root {
 
 .cont, .child {
     flex:1;
+    color: blue;
     /* background: rgb(184, 16, 11); */
+}
+
+.child {
+    color: orange
 }

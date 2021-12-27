@@ -2,7 +2,6 @@ import React, { lazy, Suspense } from 'react';
 // import { Router, Route, Link } from 'react-router'
 // import { Switch, Route } from 'react-router-dom'
 import {BrowserRouter, Route, Switch} from "react-router-dom";
-import '../../css/common.css'
 
 const Home = lazy(() => import('../../view/Home/'))
 const Menu = lazy(() => import('../../view/Menu/'))
@@ -15,7 +14,7 @@ const CCont = () => {
                 <Suspense fallback={''}>
                     <Switch>
                         <Route path="/" exact component={Home}/>
-                        <Route path="/menu" exact component={Menu}/>
+                        <Route path="/menu" exact strict component={Menu}/>
                         {/* <Route path="/" component={App}>
                             <Route path="users" component={Users}>
                                 <Route path="/user/:userId" component={User}/>
