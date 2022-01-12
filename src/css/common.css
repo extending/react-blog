@@ -65,9 +65,14 @@ html, body, #root {
     padding-top: 30px;
 }
 
+.cont {
+    min-height: 100vh;
+    background: #6e7cc5
+}
+
 .cont, .child {
     flex:1;
-    color: blue;
+    color: #ffffff;
     /* background: rgb(184, 16, 11); */
 }
 
